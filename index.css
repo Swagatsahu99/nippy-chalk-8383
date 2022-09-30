@@ -1,0 +1,219 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+/* section 2 */
+
+.Explore-the-marketplace{
+    width: 90%;
+    margin: auto;
+    color: gray;
+}
+
+.Explore-the-marketplace h1{
+    margin-left: 22px;
+}
+
+.Explore-market{
+
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(5,1fr);
+    margin: auto;
+    gap: 20px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.Explore-market div{
+    
+    width: 100%;
+    margin: auto;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+.Explore-market div img{
+    width: 30%;
+}
+
+
+
+/* section- 3 */
+
+.fiverr-business-solution{
+    background-color:#0d084d;
+    color: white;
+    display: flex;
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.fiverr-business-solution div{
+    width: 100%;
+    padding: 22px;
+}
+
+#fiverr-new-btn{
+    display: flex;
+    margin-left: -22px;
+    gap: 10px;
+}
+
+#fiverr-new-btn button{
+    padding: 0px 5px;
+    background-color: #446ee7;
+    color: white;
+    border-radius: 12px;
+}
+
+#fiverr-business-solution-txt{
+
+    padding: 0px 40px;
+}
+
+#fiverr-business-solution-txt h1{
+
+    width: 52%;
+    font-size: 35px;
+    margin-top: 12px;
+    line-height: 45px;
+}
+
+#fiverr-business-solution-txt p{
+    margin-top: 22px;
+    font-size: 20px;
+    width: 55%;
+    line-height: 32px;
+    margin-bottom: 22px;
+}
+
+#fiverr-business-solution-txt li{
+    font-size:18px;
+    margin-top: 12px;
+}
+
+#explore{
+    margin-top: 32px;
+    padding: 8px 20px;
+    color: white;
+    font-weight: bold;
+    background-color: #1dbf73 ;
+}
+
+
+#fiverr-business-solution-img img{
+    width: 100%;
+}
+
+
+/* section- 4 */
+
+.fiver-logo-maker{
+    position: relative;
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.fiver-logo-maker img{
+    width: 100%;
+    background-color: #446ee7;
+}
+
+#logo-maker-txt{
+    position: absolute;
+    width: 33%;
+    top: 10%;
+    left: 8%;
+    line-height: 52px;
+    color: white;
+    font-size: 22px;
+}
+
+#fiverr-logo-maker-btn{
+    /* bottom: -100px; */
+    /* left: 10%; */
+    margin-top: 52px;
+    padding: 14px 29px;
+    border-radius: 10px;
+    background-color: white;
+    color: blue;
+    font-size: 15px;
+    border: none;
+}
+
+/* section 5 */
+
+#fiver-guide-head{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    margin-top: 50px;
+}
+
+#fiverr-business{
+    display: flex;
+    width: 90%;
+    gap: 20px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#fiverr-business-img{
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#fiverr-business-img p{
+    color: gray;
+}
+
+#fiverr-business-img img{
+    width: 100%;
+}
+
+/* section - 6 */
+
+.talent{
+    position: relative;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 400px;
+}
+
+#grow-head{
+    position: absolute;
+    top: 15%;
+    left: 9%;
+    width: 45%;
+    color: white;
+    font-size: 30px;
+    /* line-height: 62px; */
+}
+#grow-btn{
+    position: absolute;
+    bottom: -100px;
+    left: 10%;
+    padding: 14px 29px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+.talent img{
+    width: 85%;
+}
+
