@@ -11,7 +11,7 @@
 .Explore-the-marketplace{
     width: 90%;
     margin: auto;
-    color: gray;
+    color: rgb(83, 81, 81);
 }
 
 .Explore-the-marketplace h1{
@@ -73,7 +73,8 @@
 
 #fiverr-business-solution-txt{
 
-    padding: 0px 40px;
+    /* padding: 0px 40px; */
+    margin-left: 80px;
 }
 
 #fiverr-business-solution-txt h1{
@@ -174,7 +175,7 @@
 }
 
 #fiverr-business-img p{
-    color: gray;
+    color: rgb(81, 74, 74);
 }
 
 #fiverr-business-img img{
@@ -217,3 +218,55 @@
     width: 85%;
 }
 
+
+/* section whole world  */
+
+.whole-frelancer{
+    display: flex;
+    padding: 30px;
+    background-color: #f1fdf7;
+}
+
+#frelancer-txt{
+    margin-left: 62px;
+}
+
+#frelancer-txt h1{
+    font-size: 45px;
+    margin-bottom: 32px;
+    width:80%;
+}
+
+#frelancer-txt li{
+    font-size: 22px;
+    margin-left: 22px;
+    margin-bottom: 12px;
+}
+
+#frelancer-txt p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    width: 70%;
+    margin-left: 32px;
+    color: gray;
+
+}
+
+.whole-frelancer div{
+    width: 100%;
+}
+
+#frelancer-video{
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+    width: 60%;
+}
+
+
+/* section ---------- slider*/
+
+.slider h1{
+    margin-left: 22px;
+    margin-top: 22px;
+}
