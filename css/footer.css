@@ -12,6 +12,7 @@
 }
 
 .fiver-footer-content {
+    padding:20px 22px;
     display: flex;
     flex-direction: column;
 }
@@ -42,7 +43,7 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     margin-top: 32px;
 }
 
@@ -51,18 +52,18 @@
 }
 
 .footer-bar p{
-    margin-left: -50%;
-    font-size: 18px;
-    margin-top: 32px;
+    margin-left: -20%;
+    font-size: 20px;
     color: gray;
 }
 
 #comp-logo{
-    font-size: 13px;
+    font-size: 22px;
     text-decoration: none;
     display: flex;
     gap: 12px;
-    margin-right: 52px;
+    margin-right: -300px;
+    color: gray;
 }
 
 .fab{
@@ -72,7 +73,7 @@
     padding-bottom: 5px;
     width: 1em;
     text-align: center;
-    color: white;
+    color: gray;
     border-radius: 50%;
 }
 
@@ -84,23 +85,58 @@
     padding-bottom: 5.7px;
     width: 1em;
     text-align: center;
-    color: white;
-    background-color: #4267B2;
+    color: gray;
     border-radius: 50%;
 
 }
 
-.fa-facebook{
+.language{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 20px;
+    margin-bottom: 20px;
+}
 
-    background-color: #4267B2;
+.language a{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
 }
-.fa-twitter{
-    background-color: #00acee;
+
+.language p+a{
+    font-size: 18px;
+    margin-right: -7px;
 }
-.fa-instagram{
-    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
+
+.language p{
+    margin-left: -5px;
 }
-.fa-youtube{
-    padding-right: 7px;
-    background-color: #ec0c1e;
+
+.language :nth-child(5){
+    font-size: 16px;
+    padding: 5px 10px;
+    /* height: 30px; */
+    border: 1px solid gray;
+    border-radius: 60% 60% 60% 60%;
+}
+
+.col-line-2{
+    width: 95%;
+    height: 1px;
+    margin: auto;
+    background-color: gray;
+    margin-bottom: 23px;
+    margin-top: 12px;
+    opacity: 0.5;
+}
+
+.col-line-3{
+    width: 95%;
+    height: 1px;
+    margin: auto;
+    background-color: gray;
+    margin-bottom: -20px;
+    margin-top: 22px;
+    opacity: 0.5;
 }

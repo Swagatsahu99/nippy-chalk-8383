@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="index.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/index.css">
 
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/lightslider.css">
@@ -16,9 +22,39 @@
 
     <script type="text/javascript" src="js/jss.js"></script>
     <script type="text/javascript" src="js/lightslider.js"></script>
+
+    <!-- navbar -->
+
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <!-- footer -->
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
 </head>
 <body>
+
+    <!-- navbar import -->
+
+    <div id="Navbar"></div>
+    <div class="banner">
+        <img src="https://techbusbee.com/wp-content/uploads/2021/01/TBB-Featured-Image-1280x720-2.jpg" style="height: 100vh;" alt="#" id="image">
+    </div>
     
+    <div class="fiver-comp-logo">
+        <div id="company-txt"><p>Trusted by:</p></div>
+        <div id="company-logo"><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/facebook.31d5f92.png" alt=""></div>
+        <div id="company-logo">
+            <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/google.517da09.png" alt="">
+        </div>
+        <div id="company-logo">
+            <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/netflix.e3ad953.png" alt="">
+        </div>
+        <div id="company-logo">
+            <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/pandg.8b7310b.png" alt="">
+        </div>
+    </div>
 
     <div class="slider">
         <h1>Popular professional services</h1>
@@ -307,9 +343,43 @@
     </div>
 
 
-<!-- section slider -------------->
+
+<!-- footer -->
+
+<div id="footer">
+</div>
 
 </body>
 </html>
 
 <script src="js/script.js"></script>
+
+<script type="module">
+    import {footer} from './js/footer.js'
+    document.getElementById('footer').innerHTML = footer();  
+</script>
+
+<script type="module">
+    
+    import {navbar} from './js/navbar.js'
+    
+    document.getElementById('Navbar').innerHTML=navbar();
+</script>
+
+<script type="text/javascript">
+
+    let image=document.getElementById("image");
+
+    let images=['https://media-exp1.licdn.com/dms/image/C4D1BAQEaw14mCNOkVw/company-background_10000/0/1599653391313?e=2147483647&v=beta&t=actBnxTxttOI47b9aZcVS2fB1dYCyqvMHehw3RPOnAc','https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1400,dpr_1.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608122/bg-signup-1400-x1.png','https://workspace.fiverr.com/wp-content/uploads/2021/10/home-cover-green-desktop.png'];
+
+    setInterval(function(){
+        let random= Math.floor(Math.random()*3);
+        image.src=images[random];
+    },5000);
+
+    window.addEventListener("scroll",function(){
+        var header= document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    })
+
+</script>

@@ -3,8 +3,39 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
+
+/* section 1 logo */
+
+.fiver-comp-logo{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    /* margin-top: 10%; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid blue; */
+    
+}
+
+#company-txt{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    opacity: 0.6;
+}
+
+#company-logo{
+    text-align: center;
+    /* border: 1px solid green; */
+}
+
+#company-logo img{
+    width: 100%;
+}
 
 /* section 2 */
 
@@ -190,7 +221,7 @@
     text-align: center;
     margin: auto;
     justify-content: center;
-    margin-bottom: 400px;
+    margin-bottom: 40px;
 }
 
 #grow-head{
